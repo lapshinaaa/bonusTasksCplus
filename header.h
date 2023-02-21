@@ -11,7 +11,7 @@ template <typename Type>
 std::vector<Type> replacingOddEven(std::vector<Type>&vector, std::list<Type>&list);
 
 template<typename T>
-std::vector<T> print_even(std::list<T>&lst);
+std::vector<T> creatingEvenVector(std::list<T>&lst);
 
 template<typename T>
 std::list<T> alternate_pairs(const std::vector<T>& vec, const std::list<T>& lst);
