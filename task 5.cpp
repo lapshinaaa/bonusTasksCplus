@@ -1,3 +1,8 @@
+#include <iostream>
+#include <vector>
+#include <list>
+
+
 template <typename Type>
 std::vector<Type> replacingOddEven(std::vector<Type>&vector, std::list<Type>&list)
 {
