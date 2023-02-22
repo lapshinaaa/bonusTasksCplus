@@ -1,3 +1,8 @@
+#include <iostream>
+#include <list>
+#include <vector>
+
+
 template<typename T>
 std::list<T> alternate_pairs(const std::vector<T>& vec, const std::list<T>& lst) {
     std::list<T> result;
